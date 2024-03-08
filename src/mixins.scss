@@ -1,5 +1,5 @@
 @mixin xsm {
-    @media only screen and (min-width: 520px) {
+    @media only screen and (min-width: 576px) {
         @content;
     }
 }

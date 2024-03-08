@@ -1,0 +1,50 @@
+@import "../../mixins.scss";
+
+.CategoryBox {
+    padding: 24px;
+    background-color: var(--white);
+    box-shadow: 0 0 10px 0 rgba(176, 180, 183, .17);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    min-height: 320px;
+
+    @include xsm {
+        padding: 40px;
+        min-height: 395px;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 700;
+        font-family: Merriweather, serif;
+        margin-bottom: 5px;
+        color: var(--black1);
+        position: relative;
+        z-index: 9;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 0;
+        color: var(--black1);
+        font-weight: 400;
+        position: relative;
+        z-index: 9;
+        margin-bottom: 16px;
+    }
+
+    a {
+        position: relative;
+        z-index: 9;
+    }
+
+    img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        max-width: 80%;
+    }
+}
