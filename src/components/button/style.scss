@@ -1,0 +1,23 @@
+@import "../../mixins.scss";
+
+.cta-btn {
+    font-size: 14px;
+    color: var(--white);
+    padding: 8px 20px;
+    background: var(--green);
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    @include md {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+
+    &:hover {
+        background: var(--greenHover);
+    }
+}

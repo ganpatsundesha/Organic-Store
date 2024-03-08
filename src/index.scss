@@ -1,0 +1,45 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --black1: #333333;
+  --black2: #111111;
+  --black3: #303030;
+  --lightBlack: #878787;
+  --darkGreen: #001524;
+  --white: #ffffff;
+  --green: #6a9739;
+  --greenHover: #8bc34a;
+  --gradient: linear-gradient(160deg, #fff 0%, #f8f6f3 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: var(--gradient);
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  transition: all 0.4s;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+/*# sourceMappingURL=index.css.map */

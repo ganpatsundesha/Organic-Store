@@ -1,9 +1,16 @@
 import React from 'react'
+import Header from './components/Header/Header'
+import Home from './pages/home/Home'
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
+    return (
+        <>
+            <Header />
+            <main>
+                <Home />
+            </main>
+        </>
+    )
 }
 
 export default App
