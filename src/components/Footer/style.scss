@@ -1,0 +1,21 @@
+@import "../../mixins.scss";
+
+footer {
+    padding: 50px 0;
+    background: var(--darkGreen);
+
+    .left-side {
+        img {
+            max-width: 180px;
+            margin-bottom: 45px;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            color: var(--white);
+            opacity: 0.66;
+            max-width: 442px;
+        }
+    }
+}

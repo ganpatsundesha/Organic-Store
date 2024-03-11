@@ -7,6 +7,7 @@ import OfferBox from './OfferBox/OfferBox';
 import TrandingProducts from './TrandingProducts/TrandingProducts';
 
 import "./style.scss";
+import ReviewCards from './ReviewCards/ReviewCards';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <CategoryCard />
             <OfferBox />
             <TrandingProducts />
+            <ReviewCards />
         </>
     )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header/Header'
 import Home from './pages/home/Home'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
     return (
@@ -9,6 +10,7 @@ const App = () => {
             <main>
                 <Home />
             </main>
+            <Footer />
         </>
     )
 }

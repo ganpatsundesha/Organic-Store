@@ -3,6 +3,8 @@
 .leafTitle {
     text-align: center;
     margin-bottom: 24px;
+    position: relative;
+    z-index: 9;
 
     @include md {
         margin-bottom: 40px;
