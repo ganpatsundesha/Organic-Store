@@ -1,3 +1,5 @@
+@import "./mixins.scss";
+
 :root {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -42,6 +44,14 @@ img {
 a {
   text-decoration: none;
   transition: all 0.4s;
+}
+
+main {
+  padding-top: 87px;
+
+  @include xsm {
+    padding-top: 110px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
